@@ -5,6 +5,8 @@ The program uses BFS to find the path.
 Example:
 
 # X # # # # # # #
+
+
 # X             #
 # X # #   # #   #
 # X #       #   #
