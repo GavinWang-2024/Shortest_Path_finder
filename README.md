@@ -23,25 +23,25 @@ Maze pathfinding visualizer using Python's curses module. The program uses BFS t
 
 ##Code Overview
 
-###maze
+```maze```
 The maze is a 2D list representing the maze structure. # represents walls, spaces represent open paths, O is the start, and X is the end.
 
-###print_maze(maze, stdscr, path=[])
+```print_maze(maze, stdscr, path=[])```
 This function prints the maze to the screen, with an optional path highlighted in red.
 
-###find_start(maze, start)
+```find_start(maze, start)```
 This function finds the starting position in the maze.
 
-###find_path(maze, stdscr)
+```find_path(maze, stdscr)```
 This function uses BFS to find the shortest path from the start to the end. It updates the screen to visualize the search process.
 
-###find_neighbors(maze, row, col)
+```find_neighbors(maze, row, col)```
 This function returns the valid neighbors (up, down, left, right) of a given position in the maze.
 
-###main(stdscr)
+```main(stdscr)```
 This is the main function that initializes color pairs and starts the pathfinding visualization.
 
-###wrapper(main)
+```wrapper(main)```
 This function is provided by the curses module to handle the initialization and teardown of the terminal window.
 
 
